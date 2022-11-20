@@ -2,7 +2,7 @@
   <header class="header">
     <div class="header__titles">
       <img src="@/assets/logo.png" alt="vue logo" width="50" height="50" />
-      <h1>Vue 小作品集</h1>
+      <h1>Vue 大作品集</h1>
     </div>
     <nav class="navigation">
       <router-link
