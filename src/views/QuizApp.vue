@@ -1,7 +1,7 @@
 <template>
   <h1>Vue クイズ</h1>
   <div class="app">
-    <h2>Q. {{ "クイズタイトル" }}</h2>
+    <h2>Q. {{ "昨年ワールドカップで優勝した国はどこでしょう？" }}</h2>
     <img
       class="quiz-image"
       src="https://via.placeholder.com/300x300"
@@ -9,16 +9,16 @@
     />
     <div class="container">
       <button>
-        {{ "選択肢1" }}
+        {{ "フランス" }}
       </button>
       <button>
-        {{ "選択肢2" }}
+        {{ "ドイツ" }}
       </button>
       <button>
-        {{ "選択肢3" }}
+        {{ "ブラジル" }}
       </button>
     </div>
-    <div>{{ "答え" }}</div>
+    <div>{{ "フランス" }}</div>
   </div>
 </template>
 
